@@ -1,0 +1,13 @@
+set from = "usuario@gmail.com"
+set realname = "Nombre Usuario"
+set imap_user = "usuario@gmail.com"
+set imap_pass = "clave"
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed ="+[Gmail]/Drafts"
+set header_cache =~/.mutt/cache/headers
+set message_cachedir =~/.mutt/cache/bodies
+set certificate_file =~/.mutt/certificates
+set smtp_url = "smtp://usuario@smtp.gmail.com:587/"
+set smtp_pass = "clave"
+#De lo anterior debes reemplazar "usuario" por el nombre de tu usuario de Gmail sin @gmail.com y "clave" con la clave de tu correo
