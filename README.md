@@ -120,6 +120,8 @@ try:
 except KeyboardInterrupt:   #Si el usuario pulsa CONTROL + C...
     print "quit"            #Anunciamos que finalizamos el script
     GPIO.cleanup()          #Limpiamos los pines GPIO y salimos
+	
+	...
 
 
 
