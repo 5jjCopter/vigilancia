@@ -4,7 +4,7 @@ Haga una foto y la guarde en una pendrive.
 Envié un correo con aviso de alarma y foto adjunta.
 Tenemos que tener raspberry con sistema operativo.
 
-Entrarenos en raspberry pi por ssh con putty.
+Entraremos en raspberry pi por ssh con putty.
 
 Instalaremos Ssmtp escribiendo lo siguiente en consola.
 
@@ -67,9 +67,9 @@ raspistill -vf -hf -o /media/usb/fotos/1.jpg
 cd /home/pi
 raspistill -vf -hf -o /media/usb/fotos/$DATE.jpg
 
-Raliza primero una foto y la guarda como 1.jpg y despues realiza otra y la guarda por fecha y hora.
+Realiza primero una foto y la guarda como 1.jpg y después realiza otra y la guarda por fecha y hora.
 
-Esto es para que 1.jpg sienpre sea sobre escrita por la siguiente y pueda ser mandada.
+Esto es para que 1.jpg siempre sea sobre escrita por la siguiente y pueda ser mandada.
 
 Ahora crearemos el scrips que enviara la foto.
 
@@ -86,7 +86,6 @@ Ahora crearemos el scripts que hara que de ejecute todo.
 sudo nano disparo.py
 
 Y escrivimos lo siguiente.
-
 
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
@@ -121,6 +120,13 @@ try:
 except KeyboardInterrupt:   #Si el usuario pulsa CONTROL + C...
     print "quit"            #Anunciamos que finalizamos el script
     GPIO.cleanup()          #Limpiamos los pines GPIO y salimos
+
+
+
+
+
+
+
 
 
 
