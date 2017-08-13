@@ -1,4 +1,4 @@
-Pues construiremos una alarma con raspberry pi para que cuando detecte un movimiento  realice lo siguiente.
+Pues construiremos una alarma con raspberry pi para que cuando detecte un movimiento  realice lo siguiente.
 
 Haga una foto y la guarde en una pendrive.
 Envié un correo con aviso de alarma y foto adjunta.
@@ -120,10 +120,6 @@ try:
 except KeyboardInterrupt:   #Si el usuario pulsa CONTROL + C...
     print "quit"            #Anunciamos que finalizamos el script
     GPIO.cleanup()          #Limpiamos los pines GPIO y salimos
-	
-	...
-..
-
 
 
 
