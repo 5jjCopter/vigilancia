@@ -122,7 +122,7 @@ except KeyboardInterrupt:   #Si el usuario pulsa CONTROL + C...
     GPIO.cleanup()          #Limpiamos los pines GPIO y salimos
 	
 	...
-
+..
 
 
 
